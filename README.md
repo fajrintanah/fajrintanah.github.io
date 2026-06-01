@@ -1,106 +1,85 @@
-# Computational Soil Science Lab — Website
+# Computational Soil Science (CSS)
 
-A clean, professional research group website hosted for free via **GitHub Pages**.
+Computational Soil Science (CSS) is an independent research group based in Dramaga, Bogor, Indonesia. We integrate soil science, environmental monitoring, remote sensing, geographic information systems (GIS), machine learning, and data-driven modelling to better understand soil processes across spatial and temporal scales.
 
-## 📁 Files
-```
-├── index.html      ← Main website (all sections)
-├── style.css       ← All styles
-├── script.js       ← Navbar, scroll, animations
-└── README.md       ← This file
-```
+## Research Themes
 
----
+### Soil Carbon and Greenhouse Gas Dynamics
 
-## 🚀 Deploy to GitHub Pages (Step-by-Step)
+Understanding carbon cycling, greenhouse gas emissions, and biogeochemical processes in tropical ecosystems, particularly tropical peatlands.
 
-### 1. Create the GitHub Repository
+### Hydrology and Groundwater Modelling
 
-Go to [github.com/new](https://github.com/new) and create a repository named:
+Developing spatial and temporal models of groundwater level dynamics, soil moisture, evapotranspiration, and land–water interactions.
 
-```
-fajrintanah.github.io
-```
+### Digital Soil Mapping
 
-> ⚠️ The name must match exactly: `yourusername.github.io`
+Producing high-resolution soil property maps using machine learning, geostatistics, environmental covariates, and remote sensing.
 
-Set it to **Public** and click **Create repository**.
+### Remote Sensing and Earth Observation
+
+Integrating satellite observations, UAV imagery, and field measurements for environmental monitoring and landscape assessment.
+
+### Computational Environmental Science
+
+Applying statistical modelling, machine learning, and geospatial analytics to address complex environmental challenges.
 
 ---
 
-### 2. Open this folder in VS Code terminal
+## Research Partners
 
-```bash
-cd path/to/css-website
-```
-
----
-
-### 3. Initialize Git and push
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: CSS Lab website"
-git branch -M main
-git remote add origin https://github.com/fajrintanah/fajrintanah.github.io.git
-git push -u origin main
-```
+* Department of Soil Science and Land Resource, IPB University
+* IPB Scientific Satellite Research Society (SSRS)
+* Ministry of Environment / Environmental Control Agency (KLH-BPLH)
 
 ---
 
-### 4. Enable GitHub Pages
+## Team
 
-1. Go to your repo on GitHub
-2. Click **Settings** → **Pages** (left sidebar)
-3. Under **Source**, select `main` branch, folder `/ (root)`
-4. Click **Save**
+### Founder
 
-✅ Your site will be live at:  
-👉 **https://fajrintanah.github.io**
+**Moh Zulfajrin**
+Founder & Lead Researcher
 
-(Takes ~1–2 minutes to go live the first time)
+### Co-Founder
 
----
+**Lina Lathifah Nurazizah**
+Co-Founder & Lead Researcher
 
-## ✏️ How to Customize
+### Researchers
 
-### Change your name/email
-Open `index.html` and search for:
-- `Fajrin Tanah` → replace with your real name
-- `csslab@university.ac.id` → your email
-- `Department of Soil Science` → your department
+**Indra Mukti Prasetyo**
+Researcher
 
-### Add/edit publications
-Find the `#publications` section in `index.html` and copy/edit the `.pub-item` blocks.
+### Advisory Board
 
-### Add team members
-Find the `#team` section and copy a `.team-card` block for each person.
-
-### Add your profile photo
-Replace the `<div class="team-avatar pi">` with:
-```html
-<img src="images/your-photo.jpg" alt="Your Name" style="width:100%;height:140px;object-fit:cover;">
-```
-
-### Update the stats
-Find `.stats-bar` in `index.html` and change the numbers.
+**Dr. Heru Bagus Pulunggono**
+Department of Soil Science and Land Resource, IPB University
 
 ---
 
-## 🔄 Update the site anytime
+## Website
 
-```bash
-git add .
-git commit -m "Update: added new publication"
-git push
-```
+Visit the official website:
 
-Changes go live in ~30 seconds.
+https://fajrintanah.github.io/
 
 ---
 
-## 💡 Tips
-- Use [Google Scholar](https://scholar.google.com) to keep your publications list updated
-- Add a `favicon.ico` file to the root folder for a browser tab icon
-- For a custom domain (e.g. `csslab.university.edu`), add a `CNAME` file with the domain name
+## Contact
+
+Email: [fajrintanah@gmail.com](mailto:fajrintanah@gmail.com)
+
+Location: Dramaga, Bogor, West Java, Indonesia
+
+---
+
+## Citation
+
+If you use datasets, software, workflows, or other materials developed by CSS, please cite the associated publication or repository.
+
+---
+
+## License
+
+Unless otherwise stated, website content is released under the MIT License.
