@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Computational Soil Science Lab</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">CSS<span>Lab</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-label">Research Group</p>
+      <h1>Computational<br/><span>Soil Science</span></h1>
+      <p class="hero-sub">Bridging data, algorithms, and earth sciences to unravel the complexity of soil systems.</p>
+      <div class="hero-btns">
+        <a href="#research" class="btn-primary">Our Research</a>
+        <a href="#team" class="btn-outline">Meet the Team</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="soil-layers">
+        <div class="layer l1"><span>O Horizon</span></div>
+        <div class="layer l2"><span>A Horizon</span></div>
+        <div class="layer l3"><span>B Horizon</span></div>
+        <div class="layer l4"><span>C Horizon</span></div>
+        <div class="layer l5"><span>R Horizon</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar">
+    <div class="stat"><strong>10+</strong><span>Publications</span></div>
+    <div class="stat"><strong>5+</strong><span>Active Projects</span></div>
+    <div class="stat"><strong>8+</strong><span>Team Members</span></div>
+    <div class="stat"><strong>3+</strong><span>Collaborations</span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-tag">Who We Are</div>
+      <h2>About the Lab</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>The <strong>Computational Soil Science (CSS) Lab</strong> is dedicated to advancing our understanding of soil systems through cutting-edge computational methods, machine learning, and spatial data analysis.</p>
+          <p>We integrate field measurements, laboratory data, and remote sensing to build predictive models that help address global challenges in food security, carbon cycling, and land management.</p>
+          <a href="#contact" class="btn-primary">Get in Touch</a>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <i class="fas fa-brain"></i>
+            <h4>Machine Learning</h4>
+            <p>Applying ML models to predict soil properties from large-scale datasets.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-satellite"></i>
+            <h4>Remote Sensing</h4>
+            <p>Using satellite and drone imagery to map soil variability across landscapes.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-database"></i>
+            <h4>Data Science</h4>
+            <p>Building robust pipelines for soil data integration and analysis.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-globe-asia"></i>
+            <h4>Spatial Analysis</h4>
+            <p>GIS-based approaches for understanding spatial patterns of soil health.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="research section" id="research">
+    <div class="container">
+      <div class="section-tag">What We Do</div>
+      <h2>Research Focus</h2>
+      <div class="research-grid">
+
+        <div class="research-card featured">
+          <div class="rc-icon"><i class="fas fa-seedling"></i></div>
+          <h3>Soil Carbon Modeling</h3>
+          <p>Developing computational models to quantify and predict soil organic carbon stocks under different land use and climate scenarios.</p>
+          <span class="rc-tag">Ongoing</span>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-icon"><i class="fas fa-map"></i></div>
+          <h3>Digital Soil Mapping</h3>
+          <p>Creating high-resolution spatial maps of soil properties using machine learning and remote sensing data.</p>
+          <span class="rc-tag">Active</span>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-icon"><i class="fas fa-microscope"></i></div>
+          <h3>Soil Spectroscopy</h3>
+          <p>Using Vis-NIR and MIR spectroscopy combined with chemometrics for rapid soil analysis.</p>
+          <span class="rc-tag">Active</span>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-icon"><i class="fas fa-water"></i></div>
+          <h3>Soil–Water Dynamics</h3>
+          <p>Simulating water flow and solute transport through soil profiles under varying climate conditions.</p>
+          <span class="rc-tag">Active</span>
+        </div>
+
+        <div class="research-card">
+          <div class="rc-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Predictive Pedology</h3>
+          <p>Combining traditional soil science with data-driven approaches for soil classification and genesis.</p>
+          <span class="rc-tag">Ongoing</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="section-tag">People</div>
+      <h2>Meet the Team</h2>
+      <div class="team-grid">
+
+        <div class="team-card">
+          <div class="team-avatar pi"><i class="fas fa-user"></i></div>
+          <div class="team-info">
+            <h4>Fajrin Tanah</h4>
+            <p class="role">Principal Investigator</p>
+            <p class="affil">Lead Researcher · Computational Soil Science Lab</p>
+            <div class="team-links">
+              <a href="https://github.com/fajrintanah" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar phd"><i class="fas fa-user"></i></div>
+          <div class="team-info">
+            <h4>Team Member</h4>
+            <p class="role">PhD Researcher</p>
+            <p class="affil">Soil Carbon · Remote Sensing</p>
+            <div class="team-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar msc"><i class="fas fa-user"></i></div>
+          <div class="team-info">
+            <h4>Team Member</h4>
+            <p class="role">MSc Student</p>
+            <p class="affil">Digital Soil Mapping · GIS</p>
+            <div class="team-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-avatar msc"><i class="fas fa-user"></i></div>
+          <div class="team-info">
+            <h4>Team Member</h4>
+            <p class="role">MSc Student</p>
+            <p class="affil">Spectroscopy · ML</p>
+            <div class="team-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <p class="team-note">Want to join the lab? <a href="#contact">Reach out to us →</a></p>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="publications section" id="publications">
+    <div class="container">
+      <div class="section-tag">Academic Output</div>
+      <h2>Publications</h2>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <span class="pub-year">2024</span>
+          <div class="pub-detail">
+            <h4>Machine Learning Approaches for Predicting Soil Organic Carbon in Tropical Soils</h4>
+            <p>Tanah F., et al. · <em>Geoderma</em></p>
+            <div class="pub-tags">
+              <span>ML</span><span>Soil Carbon</span><span>Tropics</span>
+            </div>
+          </div>
+          <a href="#" class="pub-link"><i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-detail">
+            <h4>Digital Soil Mapping Using Multi-Source Remote Sensing Data</h4>
+            <p>Tanah F., et al. · <em>Remote Sensing of Environment</em></p>
+            <div class="pub-tags">
+              <span>DSM</span><span>Remote Sensing</span>
+            </div>
+          </div>
+          <a href="#" class="pub-link"><i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-detail">
+            <h4>Vis-NIR Spectroscopy for Rapid Assessment of Soil Properties</h4>
+            <p>Tanah F., et al. · <em>Soil & Tillage Research</em></p>
+            <div class="pub-tags">
+              <span>Spectroscopy</span><span>Chemometrics</span>
+            </div>
+          </div>
+          <a href="#" class="pub-link"><i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+      <p class="pub-note">Update your publications directly in <code>index.html</code> under the <code>#publications</code> section.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-tag">Get In Touch</div>
+      <h2>Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>We welcome collaborations, student inquiries, and research partnerships. Feel free to reach out!</p>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>csslab@university.ac.id</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Department of Soil Science<br/>Faculty of Agriculture, Indonesia</span>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/fajrintanah" target="_blank">github.com/fajrintanah</a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea rows="5" placeholder="Your Message"></textarea>
+          <button class="btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+          <p class="form-note">Or email us directly for faster response.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">CSS<span>Lab</span></div>
+          <p>Computational Soil Science Research Group.<br/>Understanding soils through computation.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Navigation</h5>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#team">Team</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h5>Connect</h5>
+          <a href="https://github.com/fajrintanah" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="#"><i class="fas fa-flask"></i> ResearchGate</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Computational Soil Science Lab · Built with GitHub Pages</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
