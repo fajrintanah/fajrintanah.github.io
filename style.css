@@ -367,6 +367,12 @@ a { text-decoration: none; color: inherit; }
   display: flex; align-items: center; justify-content: center;
   font-size: 3rem; color: var(--white);
 }
+.team-photo {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
 .team-avatar.pi        { background: linear-gradient(135deg, var(--green-deep), var(--green-mid)); }
 .team-avatar.cofound   { background: linear-gradient(135deg, #3a5a8a, #5b82b8); }
 .team-avatar.researcher{ background: linear-gradient(135deg, var(--soil-brown), var(--soil-mid)); }
